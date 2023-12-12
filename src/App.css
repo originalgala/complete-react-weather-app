@@ -1,8 +1,15 @@
 .App {
   text-align: center;
+
 }
 
-
+.container {
+  border:1px solid#282c34;
+  max-width: 800px;
+  padding-top: 10px;
+  background-color: navy;
+  color: white;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -29,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  font-size: 12px;
 }

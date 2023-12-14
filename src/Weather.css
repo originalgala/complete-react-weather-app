@@ -31,3 +31,10 @@ ul {
     list-style: none;
 }
 
+.units {
+    vertical-align: top;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+

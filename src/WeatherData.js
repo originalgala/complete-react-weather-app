@@ -15,7 +15,7 @@ export default function WeatherData(props) {
                 <span className="fs-1">{Math.round(props.data.temperature)}</span>
                 <span className="units">°C</span>
                 </li> 
-                <li className="text-capitalize">{props.data.description}</li>
+                <li className="description text-capitalize">{props.data.description}</li>
                 
             </ul>
 

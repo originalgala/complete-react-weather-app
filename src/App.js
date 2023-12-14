@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Tokyo"/>
        <footer> Coded by Galaletsang Tlholoe and is <a href="https://github.com/originalgala/complete-react-weather-app" >
         open-sourced on Github</a>
       </footer>

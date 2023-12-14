@@ -14,7 +14,7 @@ body {
     height:230px;
     margin: 10px auto;
     border-radius: 50%;
-    padding: 15px 10px 5px 5px;
+    padding: 15px 10px;
     background-color: rgba(240, 248, 255, 0.619);
     color: black;
 }
@@ -23,12 +23,14 @@ color: white;
 }
 
 .mainWeather img {
-  width: 90px;
+  width: 100px;
 }
+
 
 
 ul {
     list-style: none;
+ 
 }
 
 .units {

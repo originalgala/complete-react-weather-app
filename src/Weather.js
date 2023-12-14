@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReadableDate from "./ReadableDate";
 import axios from "axios";
 import  { Puff } from "react-loader-spinner";
 import "./Weather.css";
@@ -16,7 +17,8 @@ function fetchTemperature(response) {
         feelLike: response.data.temperature.feels_like,
         humidity: response.data.temperature.humidity,
         wind: response.data.wind.speed,
-        city: response.data.city,});
+        date: new Date(response.data.time * 1000),
+        city: response.data.city});
     
 }
  if (temperatureData.ready) {
@@ -28,13 +30,17 @@ function fetchTemperature(response) {
             </form>
 
             <h1 className="mt-3">{temperatureData.city}</h1>
-            <h5>Tuesday 11:52</h5>
+            <h5>
+                <ReadableDate date={temperatureData.date} />
+                </h5>
             <ul className="mainWeather">
                <li> <img src={temperatureData.iconUrl} 
                 alt="mostly sunny"/>
                 </li>
                <li className="temp" >
-                <span className="fs-1">{Math.round(temperatureData.temperature)}</span><span className="units font-weight-bold">°C</span></li> 
+                <span className="fs-1">{Math.round(temperatureData.temperature)}</span>
+                <span className="units">°C</span>
+                </li> 
                 <li className="text-capitalize">{temperatureData.description}</li>
                 
             </ul>

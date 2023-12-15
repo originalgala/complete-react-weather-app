@@ -1,0 +1,31 @@
+.forecast {
+    background-color: rgba(46, 46, 46, 0.397);
+    border: 0.5px solid rgba(169, 169, 169, 0.626);
+    border-radius: 25px;
+    padding-right:5px;
+    padding-left: 7px;
+    }
+
+.forecast ul {
+    line-height: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    border-radius: 60px;
+    padding: 22px 5px 20px 0px;
+    width: 94px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.297);
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.374);
+}
+
+p {
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.line {
+    margin: 0 0 15px 0;
+    
+}

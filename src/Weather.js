@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherData from "./WeatherData";
+import DailyForecast from "./DailyForecast";
 import axios from "axios";
 import  { Puff } from "react-loader-spinner";
 import "./Weather.css";
@@ -48,6 +49,7 @@ function search() {
             </form>
 
             <WeatherData data={temperatureData}/>
+            <DailyForecast data={temperatureData}/>
             </div>
             );
  }

@@ -19,7 +19,7 @@ export default function WeatherData(props) {
                 
             </ul>
 
-            <div className="row">
+            <div className="row mt-3">
                 <div className="col-4 text-end">
                     <p>Feels like {Math.round(props.data.feelLike)}°C</p>
                 </div>

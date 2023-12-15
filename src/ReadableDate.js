@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function DisplayDate(props) {
-    console.log(props.date);
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday"];
     let day = days[props.date.getDay()];
     let hours = props.date.getHours();

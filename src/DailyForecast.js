@@ -33,6 +33,9 @@ return (
                     <WeatherForecastDay forecastData={showDailyForecast}/>
                 </div> 
                     );}
+                    else {
+                        return null;
+                    }
                 })}
                 
                 

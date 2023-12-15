@@ -9,7 +9,7 @@ export default function WeatherData(props) {
                 </h5>
             <ul className="mainWeather">
                <li> <img src={props.data.iconUrl} 
-                alt="mostly sunny"/>
+                alt={props.data.description}/>
                 </li>
                <li className="temp" >
                 <span className="fs-1">{Math.round(props.data.temperature)}</span>
@@ -19,7 +19,7 @@ export default function WeatherData(props) {
                 
             </ul>
 
-            <div className="row mt-3">
+            <div className="row mt-3 humidityWind">
                 <div className="col-4 text-end">
                     <p>Feels like {Math.round(props.data.feelLike)}°C</p>
                 </div>

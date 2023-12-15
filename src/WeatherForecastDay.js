@@ -13,7 +13,7 @@ export default function WeatherForecastDay (props) {
         <div>
             <ul>
                         <li>{showDay()}</li>
-                        <li> <img src={props.forecastData.condition.icon_url} alt=""></img></li>
+                        <li> <img src={props.forecastData.condition.icon_url} alt={props.forecastData.condition.description}></img></li>
                         <li>
                             <span className="minimum">{Math.round(props.forecastData.temperature.minimum)}°</span>
                             {" "} | {" "}

@@ -57,8 +57,8 @@ function search() {
    search ();
     return (<div className="loading">
     <Puff
-  height="80"
-  width="80"
+  height="200"
+  width="200"
   radius={1}
   color="#4fa94d"
   ariaLabel="puff-loading"

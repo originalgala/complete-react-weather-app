@@ -44,7 +44,7 @@ function search() {
      return (
         <div className="Weather">
             <form onSubmit={handleSubmit}>
-            <input type="search" placeholder="Enter a city..." autoFocus="on" onChange={changeCity} />
+            <input type="search" placeholder="Enter a city..." autoFocus="on" onChange={changeCity} className="forms"/>
             <input type="submit" value="Search" className="text-white submit-button" />
             </form>
 

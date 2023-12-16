@@ -22,7 +22,7 @@ useEffect(() => {
 
     if (loaded){
 return (
-        <div className="forecast mt-3">
+        <div className="forecast mt-3 mb-1">
             <p className="forecast-heading text-start">Weekly Forecast</p>
            <hr className="line"/>
             <div className="row">

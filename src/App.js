@@ -7,10 +7,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Tokyo"/>
-       <footer> Coded by Galaletsang Tlholoe and is <a href="https://github.com/originalgala/complete-react-weather-app" >
+      
+      </div> <footer> Coded by Galaletsang Tlholoe and is <a href="https://github.com/originalgala/complete-react-weather-app" >
         open-sourced on Github</a>
       </footer>
-      </div>
     </div>
   );
 }

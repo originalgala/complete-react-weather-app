@@ -21,13 +21,15 @@ export default function WeatherData(props) {
 
             <div className="row mt-3 humidityWind">
                 <div className="col-4 text-end">
-                    <p>Feels like {Math.round(props.data.feelLike)}°C</p>
+                    <p className="feels-like">Feels like {Math.round(props.data.feelLike)}°C</p>
                 </div>
                 <div className="col-4">
-                    <p>Wind:{props.data.wind}km/h</p>
+                    <p> <img src="https://cdn-icons-png.flaticon.com/128/5532/5532989.png" 
+                    alt="wind speed"/> {props.data.wind}km/h</p>
                 </div>
                 <div className="col-4 text-start">
-                    <p>Humidity:{props.data.humidity}%</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/128/8923/8923690.png"
+                    alt="Humidity"  />{props.data.humidity}%</p>
                 </div>
             </div>
     

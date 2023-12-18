@@ -41,14 +41,14 @@ body {
 }
 
 .mainWeather {
-    border: 5px dotted rgba(4, 62, 143, 0.637);
+    border: 5px dotted rgba(212, 212, 212, 0.637);
     width: 230px;
     height:230px;
     margin: 10px auto;
     border-radius: 50%;
     padding: 5px 10px;
     background-color: rgba(47, 68, 65, 0.575);
-    color: rgb(186, 248, 213);
+    color: rgb(193, 247, 216);
 }
 
 .mainWeather img {
@@ -76,9 +76,11 @@ ul {
 .description {line-height: 40px;}
 
 .humidityWind {
-    background: linear-gradient(to right, #710435a8, #be9d08a2, rgba(64, 128, 0, 0.888));
+    background: linear-gradient(to right, #2e0471a8, #be9d08a2, rgba(64, 128, 0, 0.888));
     border-radius: 20px;
     margin: 5px;
+    padding-top:0px;
+    vertical-align: bottom;
 }
 
 .loading {
@@ -92,5 +94,13 @@ ul {
     width: 300px;
     height: 300px;
     margin: auto;
-    background:rgb(33, 33, 66) width='40' height='40';
+}
+
+.col-4 img {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.feels-like {
+    padding-top: 15px;
 }
